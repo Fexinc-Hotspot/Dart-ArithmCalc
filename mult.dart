@@ -16,5 +16,5 @@ void main() {
 
 // We are calling a function and storing a result in variable c
   var c = mult(num1, num2);
-  print("The Multiplication of two numbers is: ${c}");
+  print("The Multiplication of two numbers is:- ${c}");
 }
