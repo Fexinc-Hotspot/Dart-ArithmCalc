@@ -14,7 +14,7 @@ void main() {
     return result;
   }
 
-// We are calling a function and storing a result in variable c
+// We are calling a function and storing it a result in variable c
   var c = sum(num1, num2);
   print("The sum of two numbers is:-  ${c}");
 }
