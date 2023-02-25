@@ -1,13 +1,14 @@
 import 'dart:io';
 
 void main() {
-
+  print('----------------------------------------');
   stdout.write('Enter the first values of A: ');
-  var a=int.parse(stdin.readLineSync()!);
+  print('----------------------------------------');
+  var a = int.parse(stdin.readLineSync()!);
   stdout.write('Enter the sec values of B: ');
-  var b=int.parse(stdin.readLineSync()!);
+  var b = int.parse(stdin.readLineSync()!);
   stdout.write('Enter the value of C: ');
-  var c =int.parse(stdin.readLineSync()!);
+  var c = int.parse(stdin.readLineSync()!);
   if (a > b) {
     print('A is bigger : $a');
   } else if (b > a) {
